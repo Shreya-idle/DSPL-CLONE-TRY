@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSPL OFFICIAL SITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="DSPL.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://www.darshansoftech.com/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.darshansoftech.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=202301050205PM" />
+    <link rel="stylesheet" type="text/css" href="css/svg_animation.css" />
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 505121, hjsv: 5 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <a class="Logo" href="/"><img src="logo.png" alt="Darshan Soft-Tech" width="110" /></a>
+            <div class="mob_mn head_menu">
+                <div class="menu">
+                    <span class="mmenu"></span>
+                    <span><a href="index.html"></a></span>
+                    <p><a href="about-us.html">ABOUT US</a></p>
+                    <p><a href="services.html">SERVICES</a></p>
+                    <p><a href="technology.html">TECHNOLOGY</a></p>
+                    <p><a href="careers.html">CAREERS</a></p>
+                    <p><a href="ourwork.html">OUR WORK</a></p>
+                    <p class='active'><a href="contact.html" class="round">Contact Us</a></p>
+
+                    <div class="header_social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/darshansofttech/" target="_blank" class="fb"></a></li>
+                            <img class="imghr" src="fb.png" alt="" />
+                            <li><a href="https://www.linkedin.com/company/darshan-soft-tech-private-limited/"
+                                    target="_blank" class="in"></a></li><img class="imghr" src="ln.png" alt="">
+                            <li><a href="https://www.instagram.com/dspl_official/?hl=en" target="_blank"
+                                    class="insta"></a>
+                            </li><img class="imghr" src="ig.png" alt="">
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <section class="contactbanner">
+        <div class="Parallax-bg-main">
+            <div class="Parallax-bg contact-bg"></div>
+        </div>
+        <div class="container bannertitle">
+            <div class="Txtbox">
+                <span class="title">Positive new partnership & interesting opportunities</span>
+                <p>As a dynamic and progressive company, we are always searching for ideas and insights to improve our
+                    operations, positive new partnerships, and interesting development opportunities.</p>
+                <span class="Mscroll" onclick="ScrollToThis('.contactus','70');"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactus">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We also appreciate feedback from associates, owners and investors for the continued growth and
+                success of our community of IT.<br /><br />
+
+                We would love to hear from you for whatever reason! Get in touch with us and if you prefer to talk with
+                us,
+                we will have someone here just for you.</p>
+            <div class="contactdetail">
+                <div class="contact">
+                    <div class="contact-info">
+                        <i class="fa-solid fa-phone"></i><a href="tel:0265-235-6615"><span class="phone">
+                                <p>0265-235-6615</p> Monday to Friday - 11am to 8pm
+                            </span></a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fa-solid fa-envelope"></i><a href="mailto:support@darshansoftech.com"><span
+                                class="email">
+                                <p>Email Us</p> Its a quick way to talk to us.
+                            </span></a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fa-brands fa-facebook-f"></i><a href="https://www.facebook.com/darshansofttech/"
+                            target="_blank"><span class="connect">
+                                <p>Darshan Soft-Tech</p> Connect with us.
+                            </span></a>
+                    </div>
+                </div>
+
+                <div class="contact-map-row">
+                    <div class="col-lg-12 col-xm-12 border">
+                        <div class="contactmap"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14763.373085699413!2d73.166998!3d22.3217664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8b16aaaaaab%3A0x3d9d4ae3b80c2870!2sDarshan%20Soft-Tech%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1687355628880!5m2!1sen!2sin"
+                                width="100%" height="410px" allowfullscreen></iframe></div>
+                        <address><span>Head Office - Vadodara:</span><br /> 201-202 & 205, Gunjan Tower,<br /> Off.
+                            Alembic Gorwa Road,<br /> Vadodara, Gujarat - 390023.</address>
+                    </div>
+
+                    <div class="col-lg-6 col-xm-12 border">
+                        <div class="contactmap"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14763.964075552396!2d73.1602529361954!3d22.316179415666976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9d1c1a6973b%3A0x65e3174f02d67941!2sDarshan%20Soft-Tech%20Pvt.%20Ltd%20(DSPL)!5e0!3m2!1sen!2sin!4v1672901490885!5m2!1sen!2sin"
+                                width="100%" height="410px" allowfullscreen></iframe></div>
+                        <address><span>Branch Office - Vadodara:</span><br /> 3rd Floor Zone 1,<br /> Alembic City,
+                            1965,<br /> Vadodara, Gujarat 390003.</address>
+                    </div>
+
+                    <div class="col-lg-6 col-xm-12 border ">
+                        <div class="contactmap">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.513886147636!2d78.36507361516044!3d17.435101306015774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93c774044c63%3A0x42c986a288670147!2sDarshan%20Softech%20Private%20Ltd%20(DSPL)!5e0!3m2!1sen!2sin!4v1643975790593!5m2!1sen!2sin"
+                                width="100%" height="410" allowfullscreen=""></iframe>
+                        </div>
+                        <address><span>Branch Office - Hyderabad:</span><br />3rd & 4th Floor, TRENDZ
+                            Sapphire,<br />Image Hospital Road, Vittal Rao Nagar,<br /> Madhapur, Hyderabad-500081
+                        </address>
+                    </div>
+                </div>
+
+
+    <footer class="lastcsshere">
+        <style>
+            .foot {
+                padding: 10px 0;
+            }
+        </style>
+        <section class="Homemovement">
+            <div class="container">
+                <span class="h-2">A Global Movement</span>
+                <p class="govinda">Stretching the boundaries of ideas and transforming old
+                    thoughts into new, is the only way to beat the competition</p>
+                <ul class="bxslider_count">
+                    <li class="col-lg-3 col-sm-6 col-xm-12 counter code"><p><i class="fa-solid fa-laptop"></i></p><span class="counter_">8404021</span><br>
+                        <p class="govinda">Lines of Code
+                            Written</p>
+                    </li>
+                    <li class="col-lg-3 col-sm-6 col-xm-12 counter project"><p><i class="fa-regular fa-thumbs-up"></i></p><span
+                            class="counter_">700</span><span>+</span><br>
+                        <p class="govinda">Projects
+                            Completed</p>
+                    </li>
+                    <li class="col-lg-3 col-sm-6 col-xm-12 counter photo"><p><i class="fa-solid fa-camera"></i></p><span class="counter_">238329</span><br>
+                        <p class="govinda">Photos Click</p>
+                    </li>
+                    <li class="col-lg-3 col-sm-6 col-xm-12 counter runs"><p><i class="fa-solid fa-baseball-bat-ball"></i></p><span class="counter_">10291</span><br>
+                        <p class="govinda">Runs Onboard</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="Homework">
+            <div class="container">
+                <span class="h-2">OUR PEOPLE COME FIRST </span>
+                <p>We rarely appoint management from outside because we love giving our people a chance to grow.<br>
+                    Intelligence, a great attitude and strong work ethics are really what you need to be part of our
+                    team.<br> If you have these, we really invest into your development.</p>
+                <img src="talent.png" alt="talent" class="talent" />
+                <!--<div class="person animate"></div>-->
+                <a href="careers.html" class="join">Join Our Team</a>
+            </div>
+        </section>
+
+
+        <section class="foot">
+
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="foot_links">
+                    <span class="about">
+                        <dl>
+                            <dt><a href="about-us.html">ABOUT US</a></dt>
+                            <dd>
+                                <a href="about-us.html">Our Company</a>
+                                <a href="services.html">Services</a>
+                                <a href="technology.html">Technology</a>
+                                <a href="careers.html">Careers</a>
+                            </dd>
+                        </dl>
+                    </span>
+                    <span class="service">
+                        <dl>
+                            <dt><a href="services.html">SERVICES</a></dt>
+                            <dd>
+                                <a href="services.html#webdev" data-navigateId="webdev">Web Development</a>
+                                <a href="services.html#uiux" data-navigateId="uiux">UI/UX Design Strategies</a>
+                                <a href="services.html#mobile" data-navigateId="mobile">Mobile App Development</a>
+                                <a href="services.html#customer" data-navigateId="customer">Customer Support</a>
+                                <a href="services.html#digital" data-navigateId="digital">Internet Marketing</a>
+                            </dd>
+                        </dl>
+                    </span>
+                    <span class="contact">
+                        <dl>
+                            <dt><a href="contact.html">CONTACT US</a></dt>
+                            <dd class="address">
+                                201-202 & 205, Gunjan Tower, Off. Alembic Gorwa Road,<br /> Vadodara, Gujarat - 390023.
+                                <hr />
+                                3rd floor, Zone 1, 1965, Alembic city, Alembic Road,<br /> Gorwa, Vadodara, Gujarat -
+                                390003.
+                                <hr />
+                                3rd & 4th Floor, TRENDZ Sapphire, Image Hospital Road,<br /> Vittal Rao Nagar, Madhapur,
+                                Hyderabad-500081
+                            </dd>
+                        </dl>
+                    </span>
+                    <span class="company"> <img src="logo.png" alt="Darshan Soft-Tech" width="110" />
+                        <p>DSPL is the trading name for Darshan Softech Private Limited. Established in 2006, we are one
+                            of the leading employers in the ecommerce industry with international clients.</p>
+
+                        <span class="follow">
+                            <dl>
+                                <a href="https://www.facebook.com/darshansofttech/" target="_blank"
+                                    class="fb">Facebook</a>
+                                <!-- <a href="https://twitter.com/darshanhexpress" target="_blank" class="tw">Twitter</a> -->
+                                <a href="https://www.linkedin.com/company/darshan-soft-tech-private-limited/"
+                                    target="_blank" class="in">Linkedin</a>
+                                <a href="https://www.instagram.com/dspl_official/?hl=en" target="_blank"
+                                    class="insta">Instagram</a>
+                            </dl>
+                        </span>
+
+                    </span>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="copyright">
+            <div class="container">
+                <span>©
+                    <script type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script> Darshan
+                    Soft-Tech. All Rights Reserved.
+                </span>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script/jquery.min.js"></script>
+    <script src="js/viewportchecker.js?1693312456"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/common.js?1693312456"></script>
+    <script src="js/libraries.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='js/CSSPlugin.min.js'></script>
+    <script src='js/TweenLite.js'></script>
+    <script src="js/slides.min.jquery.js"></script>
+    <script src="js/jQueryRotate.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+
+
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-46712080-1', 'darshansoftech.com');
+        ga('send', 'pageview');
+
+
+        function validateFirstName(id) {
+            str = $.trim($('#' + id).val());
+            regexFullName = "/^[a-zA-Z\s]*$/";
+            if (str == '') {
+                $('#valid_' + id).parent('div').addClass('error');
+                return false;
+            } else {
+                if (str.match(/<[\s]*script/) || str.match(/<\/script/) ||
+                    str.match(/<[\s]*iframe/) || str.match(/<\/iframe/) ||
+                    str.match(/<\?php/) || str.match(/<\?/) ||
+                    !str.match(/^[a-zA-Z\s]*$/)) {
+                    $('#valid_' + id).parent('div').addClass('error');
+                    return false;
+                } else {
+                    $('#valid_' + id).parent('div').removeClass('error');
+                    return true;
+                }
+            }
+
+        }
+
+        function validateLastName(id) {
+            str = $.trim($('#' + id).val());
+            regexFullName = "/^[a-zA-Z\s]*$/";
+            if (str == '') {
+                $('#valid_' + id).parent('div').addClass('error');
+                return false;
+            } else {
+                if (str.match(/<[\s]*script/) || str.match(/<\/script/) ||
+                    str.match(/<[\s]*iframe/) || str.match(/<\/iframe/) ||
+                    str.match(/<\?php/) || str.match(/<\?/) ||
+                    !str.match(/^[a-zA-Z\s]*$/)) {
+                    $('#valid_' + id).parent('div').addClass('error');
+                    return false;
+                } else {
+                    $('#valid_' + id).parent('div').removeClass('error');
+                    return true;
+                }
+            }
+
+        }
+
+        function validateLocation(id) {
+            str = $.trim($('#' + id).val());
+
+            if (str.match(/<[\s]*script/) || str.match(/<\/script/) ||
+                str.match(/<[\s]*iframe/) || str.match(/<\/iframe/) ||
+                str.match(/<\?php/) || str.match(/<\?/) || str.length > 40) {
+                $('#valid_' + id).parent('div').addClass('error');
+                return false;
+            } else {
+                $('#valid_' + id).parent('div').removeClass('error');
+
+                return true;
+
+            }
+        }
+
+        function validateContactNum(id) {
+            str = $.trim($('#' + id).val());
+
+            if (str == '') {
+                $('#valid_' + id).parent('div').removeClass('error');
+                return true;
+            }
+            if (str.match(/<[\s]*script/) || str.match(/<\/script/) ||
+                str.match(/<[\s]*iframe/) || str.match(/<\/iframe/) ||
+                str.match(/<\?php/) || str.match(/<\?/) || str.length < 10 || str.length > 12) {
+                $('#valid_' + id).parent('div').addClass('error');
+                return false;
+            } else {
+                $('#valid_' + id).parent('div').removeClass('error');
+                return true;
+            }
+        }
+
+        function validateEmailString(email) {
+            if (email.length <= 0) {
+                return true;
+            }
+            var splitted = email.match("^(.+)@(.+)$");
+            if (splitted == null)
+                return false;
+            if (splitted[1] != null) {
+                var regexp_user = /^\"?[\w-_\.]*\"?$/;
+                if (splitted[1].match(regexp_user) == null)
+                    return false;
+            }
+            if (splitted[2] != null) {
+                var regexp_domain = /^[\w-\.]*\.[A-Za-z]{2,4}$/;
+                if (splitted[2].match(regexp_domain) == null) {
+                    var regexp_ip = /^\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]$/;
+                    if (splitted[2].match(regexp_ip) == null)
+                        return false;
+                }
+                return true;
+            }
+            return false;
+        }
+
+
+
+        function validateEmail(id) {
+            str = $.trim($('#' + id).val());
+            if (str.replace(/^\s*|\s*$/g, '') == '') {
+                $('#valid_' + id).parent('div').addClass('error');
+                return false;
+            } else {
+                if (str.match(/<[\s]*script/) || str.match(/<\/script/) || str.match(/<[\s]*iframe/) || str.match(/<\/iframe/) || str.match(/<\?php/) || str.match(/<\?/)) {
+
+                    $('#valid_' + id).parent('div').addClass('error');
+                    return false;
+                } else if (!validateEmailString(str)) {
+                    $('#valid_' + id).parent('div').addClass('error');
+                    return false;
+                } else {
+                    $('#valid_' + id).parent('div').removeClass('error');
+                    return true;
+                }
+            }
+        }
+
+
+        function validateContactNote(id) {
+            str = $.trim($('#' + id).val());
+            if (str == '') {
+                $('#valid_' + id).parent('div').addClass('error');
+                return false;
+            } else {
+                if (str.match(/<[\s]*script/i) || str.match(/<\/script/i) ||
+                    str.match(/<[\s]*iframe/i) || str.match(/<\/iframe/i) ||
+                    str.match(/<\?php/i) || str.match(/<\?/)) {
+                    $('#valid_' + id).parent('div').addClass('error');
+                    return false;
+                } else {
+                    $('#valid_' + id).parent('div').removeClass('error');
+                    return true;
+                }
+            }
+
+        }
+        function validatePurpose(id) {
+            str = $.trim($('#' + id).val());
+            if (str == '' || str.match(/<[\s]*script/) ||
+                str.match(/<\/script/) || str.match(/<[\s]*iframe/) ||
+                str.match(/<\/iframe/) || str.match(/<\?php/) ||
+                str.match(/<\?/)) {
+                $('#valid_' + id).parent('div').addClass('error');
+                return false;
+            } else {
+                $('#valid_' + id).parent('div').removeClass('error');
+                return true;
+            }
+        }
+
+        var _validFileExtensions = [".doc", ".docx", ".pdf"];
+        function validateResume(id, form) {
+            $('#valid_' + id).parent('div').removeClass('error');
+            $('#valid_' + id).html("");
+            var oInput = '';
+            var fileSize = '';
+            var sFileName = '';
+            if (typeof ($('#' + id)[0].files[0]) != 'undefined') {
+                oInput = $('#' + id)[0];
+                fileSize = $('#' + id)[0].files[0].size;
+                sFileName = oInput.value;
+            }
+            if (sFileName == '') {
+                return true;
+            }
+            if (fileSize == '') {
+                return true;
+            }
+            if (sFileName.length > 0 && fileSize > 0 && fileSize < 3000000) {
+                var blnValid = false;
+                for (var j = 0; j < _validFileExtensions.length; j++) {
+                    var sCurExtension = _validFileExtensions[j];
+                    if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
+                        blnValid = true;
+                        break;
+                    }
+                }
+                if (!blnValid) {
+                    $('#valid_' + id).parent('div').addClass('error');
+                    $('#valid_' + id).html("Sorry, " + sFileName + " is invalid, allowed extensions are: " + _validFileExtensions.join(", "));
+                    oInput.value = "";
+                }
+                return blnValid;
+            }
+            $('#valid_' + id).parent('div').addClass('error');
+            $('#valid_' + id).html("Sorry, " + sFileName + " is invalid, allowed extensions are: " + _validFileExtensions.join(", "));
+            return false;
+        }
+
+
+        function validateForm() {
+            var flag = 0;
+            var foc = ''
+
+            if (!validateFirstName('firstname')) {
+                flag = 1;
+                if (foc == '') {
+                    foc = 'firstname';
+                }
+            }
+            if (!validateLastName('lastname')) {
+                flag = 1;
+                if (foc == '') {
+                    foc = 'lastname';
+                }
+            }
+            if (!validateEmail('email')) {
+                flag = 1;
+                if (foc == '') {
+                    foc = 'email';
+                }
+            }
+            if (!validateContactNote('contactNotes')) {
+                flag = 1;
+                if (foc == '') {
+                    foc = 'contactNotes';
+                }
+            }
+
+
+            if (flag == 1) {
+                document.getElementById(foc).focus();
+                return false;
+            }
+            return true;
+        }
+
+        $('#upload').change(function (e) {
+            if (typeof (e.target.files[0]) != 'undefined') {
+                var fileName = e.target.files[0].name;
+                if (fileName != '')
+                    $('#upload').closest('div').find('i').html(fileName);
+                else
+                    $('#upload').closest('div').find('i').html('No file choosen');
+            } else
+                $('#upload').closest('div').find('i').html('No file choosen');
+        });
+
+        $('#applybtn').click(function (e) {
+            $(this).addClass("clickedBtn");
+            if (validateForm()) {
+                var formData = new FormData($('#contactForm')[0]);
+                setTimeout(function () {
+                    $.ajax({
+                        method: "POST",
+                        data: formData,
+                        url: "contact.php?formContactSubmit=Y",
+                        async: false,
+                        cache: false,
+                        contentType: false,
+                        processData: false
+                    }).done(function (data) {
+                        grecaptcha.reset();
+                        $('#applybtn').removeClass("clickedBtn");
+                        if (data == 1) {
+                            createPopup($(".applyMsgSuccess").html());
+                            document.getElementById('contactForm').reset();
+                            $('#contactForm').find('input:text').val('');
+                            $('#contactForm').find('textarea').val('');
+                            $('#upload').val('');
+                            $('#upload').closest('div').find('i').html('No file choosen');
+                            $('#contactForm').find('input:file')[0].value = '';
+                            $('#experience option:eq(0)').attr('selected', 'selected');
+                            ScrollToThis('#getInTouch span:first', $('.sticky_header').height() - 60)
+
+                        } else {
+                            createPopup('<div class="applyMsgFail">' + data + '</div>');
+                        }
+                    });
+                }, 500);
+            }
+            else {
+                $(this).removeClass("clickedBtn");
+            }
+        });
+
+
+
+
+
+
+        var items = Array(1, 2, 3, 4);
+        var item = items[Math.floor(Math.random() * items.length)];
+
+        if (item) {
+            $(".contact-bg").addClass("contact-bg" + item);
+        }//home banner
+    </script>
+
+
+    <script>
+        // for DSPL Events
+        $(function () {
+            $('#Events').slides({
+                generateNextPrev: true,
+                play: 5000,
+                pause: 2500,
+                hoverPause: true,
+                preload: true,
+                preloadImage: '/images/loading.gif'
+            });
+
+            //$('#slides_container').css("display","inline");
+        });
+
+        $(function () {
+            // for our offices and cultures
+            $('#Culture').slides({
+                preload: true,
+                generateNextPrev: true,
+                play: 5000,
+                pause: 2500,
+                hoverPause: true,
+                preloadImage: '/images/loading.gif'
+
+            });
+            //$('#slides_container').css("display","inline");
+
+            $('#Speaks').slides({
+                generateNextPrev: true,
+                play: 5000,
+                pause: 2500,
+                hoverPause: true,
+                preload: true,
+                preloadImage: '/images/loading.gif'
+            });
+        });
+        //////////////////////
+
+        // for DSPL Events
+        $(function () {
+            $('#Events').slides({
+                generateNextPrev: true,
+                play: 5000,
+                pause: 2500,
+                hoverPause: true,
+                preload: true,
+                preloadImage: '/images/loading.gif'
+            });
+
+            //$('#slides_container').css("display","inline");
+        });
+
+
+
+
+        $(document).ready(function () {
+            $('img').error(function () {
+                $(this).hide();
+                $(this).attr('src', '../images/company/default/no_image_front.gif');
+                $(this).css("display", "block");
+            });
+
+            $(".pagination li>a").text('');
+            $('.Nav_inner a').click(function () {
+                var div_id = $(this).attr('href');
+                $('.Nav_inner a').removeClass("on");
+                $(this).addClass("on");
+                var temp = $(div_id).offset().top - 170;
+                $('html, body').animate({
+                    scrollTop: temp
+                }, 2000);
+            });
+            $(document).scroll(function () {
+                if ($(document).scrollTop() > 325)
+                    $("#nav").delay(1000).addClass("fix");
+                else
+                    $("#nav").removeClass("fix");
+            });
+
+            $('#Events').slides({
+                generateNextPrev: true,
+                play: 5000,
+                pause: 2500,
+                hoverPause: true
+            });
+
+
+        });
+
+
+        $(document).ready(function () {
+
+            //$(window).load(function() {
+            //
+            //$('img').error(function(){
+            //					 $(this).hide();
+            //					$(this).attr('src', '../images/company/default/no_image_front.gif');
+            //					$(this).css("display","block");
+            //				});
+            //	});
+
+            $("img").on("error", function () {
+                $(this).hide();
+                $(this).attr('src', '../images/company/default/no_image_front.gif');
+                $(this).css("display", "block");
+            });
+
+            if ($(window).width() < 700) {
+                $('.Lft_nav li:gt(4)').hide();
+            }
+
+
+            $('[class^="Team_"]').click(function (e) {
+                return;//temporary added
+                $("span[id^=plsicn_]").removeClass("cross");
+                curr_arr = $(this).attr("class").split('_');
+                curr_id = curr_arr[1];
+
+                if ($("#desc_pop_" + curr_id).is(':visible')) {
+                    $("#desc_pop_" + curr_id).hide();
+                    $("#plsicn_" + curr_id).removeClass("cross");
+                }
+                else {
+                    $('[id^="desc_pop_"]').hide();
+                    $("#desc_pop_" + curr_id).show();
+                    $("#plsicn_" + curr_id).addClass("cross");
+                }
+            });
+            $('.Team_bx Team_').click(function (e) {
+                e.preventDefault();
+                // hide all span
+                var $this = $(this).parent().find('span');
+                $(".item span").not($this).hide();
+                $this.toggle();
+            });
+            $('.Nav-tabs > li > a').click(function (event) {
+                event.preventDefault();//stop browser to take action for clicked anchor
+
+                //get displaying tab content jQuery selector
+                var active_tab_selector = $('.Nav-tabs > li.active > a').attr('href');
+
+                //find actived navigation and remove 'active' css
+                var actived_nav = $('.Nav-tabs > li.active');
+                actived_nav.removeClass('active');
+
+                //add 'active' css into clicked navigation
+                $(this).parents('li').addClass('active');
+
+                //hide displaying tab content
+                $(active_tab_selector).removeClass('active');
+                $(active_tab_selector).addClass('hide');
+
+                //show target tab content
+                var target_tab_selector = $(this).attr('href');
+                $(target_tab_selector).removeClass('hide');
+                $(target_tab_selector).addClass('active');
+            });
+            if ($(window).width() <= 900) {
+                if ($('#ajxEventImgs').length >= 1) {
+                    var detachedDiv = $('#ajxEventImgs').detach();
+                    $('.ListImg.active').append(detachedDiv);
+                }
+            }
+        });
+        function ajaxloadEventImgs(evtid) {
+            if (typeof (evtid) == 'undefined' || evtid == '')
+                return false;
+            $('.ListImg').removeClass('active');
+            $('.ListImg[data-eventID="' + evtid + '"]').addClass('active');
+            $.ajax({
+                url: "our_company.php?ajxEventId=" + evtid,
+                /*beforeSend: function( xhr ) {
+                    $("#ajxEventImgs").html("<img src='/images/loading.gif'>");
+                  }*/
+                success: function (result) {
+                    $("#ajxEventImgs").html(result);
+                    if ($(window).width() <= 900) {
+                        if ($('#ajxEventImgs').length >= 1) {
+                            var detachedDiv = $('#ajxEventImgs').detach();
+                            $('.ListImg.active').append(detachedDiv);
+                        }
+                    }
+                    $('#dspl_events').slides({
+                        generateNextPrev: true,
+                        play: 5000,
+                        pause: 2500,
+                        hoverPause: true
+                    });
+                    $(".pagination li>a").text('');
+                }
+            });
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $(".Benefits li").click(function () {
+                var clname = $(this).attr('class');
+                $(".BenefitsTxt ul").hide();
+                $(".Benefits li span").removeClass('EMParrow');
+                $(this).find('span').addClass('EMParrow');
+                $(".BenefitsTxt").find('.' + clname).show();
+            })
+        })
+
+    </script>
+
+    <span class="scrollTopBtn"></span>
+
+
+
+    </nav>
+    </header>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
